@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Pomodoro.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pomodoro"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox x:Name="Tb1" Width="200" Header="Enter nums (minute)" PlaceholderText="Add your nums here" TextChanging="TextBox_TextChanging"/>
+        <Button Content="Start" Click="StartButton_Click"/>
+    </StackPanel>
+</Window>
